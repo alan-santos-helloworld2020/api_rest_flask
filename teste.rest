@@ -1,0 +1,35 @@
+GET  http://localhost:5000
+Content-Type: application/json
+
+{
+
+}
+###
+POST  http://localhost:5000
+Content-Type: application/json
+
+{
+    "username":"fulano",
+    "email":"fulano@gmail.com",
+    "password":"admin123"
+
+}
+
+###
+PUT  http://localhost:5000/6161ec3a5f894f42f65e10a5
+Content-Type: application/json
+
+{
+    "username":"fulano",
+    "email":"fulano@gmail.com",
+    "password":"admin123"
+
+}
+
+###
+DELETE http://localhost:5000/613e579b6041c4df97a806f4
+Content-Type: application/json
+
+{
+
+}
